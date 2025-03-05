@@ -8,9 +8,9 @@ import { IoDiamondOutline } from "react-icons/io5";
 
 export default function LuxuryAboutUsSection() {
   const stats = [
-    { icon: Award, label: "Awards", value: "50+" },
-    { icon: Users, label: "Happy Clients", value: "10k+" },
-    { icon: Globe, label: "Countries", value: "30+" },
+    { icon: Award, label: "Нагороди", value: "50+" },
+    { icon: Users, label: "Щасливі клієнти", value: "10k+" },
+    { icon: Globe, label: "Країни", value: "30+" },
   ]
 
   return (
@@ -63,16 +63,17 @@ export default function LuxuryAboutUsSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h2 className="font-serif text-heading2-bold md:text-heading1-semibold leading-tight tracking-tight text-black">
-              Crafting Elegance Since 1990
+              Створення елегантності з 1990 року
             </h2>
             <p className="text-body-normal text-gray-600 leading-relaxed">
-              For over three decades, we&apos;ve been dedicated to creating exquisite jewelry that captures the essence of
-              beauty and sophistication. Our passion for craftsmanship and attention to detail has made us a trusted
-              name in the world of luxury accessories.
+              Протягом трьох десятиліть ми присвятили себе створенню вишуканих ювелірних виробів, 
+              які відображають сутність краси та елегантності. Наша пристрасть до майстерності та увага 
+              до деталей зробили нас надійним ім&apos;ям у світі розкішних аксесуарів.
             </p>
             <p className="text-body-normal text-gray-600 leading-relaxed">
-              Each piece in our collection is a testament to our commitment to quality and design excellence. We source
-              only the finest materials and work with skilled artisans to bring our visions to life.
+              Кожен виріб у нашій колекції є свідченням нашої відданості якості та досконалості дизайну. 
+              Ми використовуємо лише найкращі матеріали та працюємо з кваліфікованими майстрами, щоб втілити наші ідеї в 
+              реальність.
             </p>
             <div className="grid grid-cols-3 gap-4 py-6">
               {stats.map((stat, index) => (
@@ -91,7 +92,7 @@ export default function LuxuryAboutUsSection() {
             </div>
             <Button size="lg" className="group relative px-6 py-3 bg-transparent hover:bg-transparent">
               <span className="relative z-10 text-black text-base-semibold tracking-wide group-hover:text-white">
-                Our Story
+                Наша історія
               </span>
               <span className="absolute inset-0 bg-black transform scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100 origin-left"></span>
               <span className="absolute inset-0 border border-black"></span>
@@ -108,10 +109,10 @@ export default function LuxuryAboutUsSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <blockquote className="italic text-body1-bold text-[#E5D3B3] text-center">
-          &quot;Their attention to detail and commitment to quality is unmatched. Every piece I&apos;ve purchased has become a
-            cherished part of my collection.&quot;
+          &quot;Їхня увага до деталей та відданість якості не мають рівних. 
+          Кожен виріб, який я придбала, став цінною частиною моєї колекції.&quot;
           </blockquote>
-          <p className="mt-4 text-center text-base-regular text-white">- Sarah J., Loyal Customer</p>
+          <p className="mt-4 text-center text-base-regular text-white">- Сара Дж., Вірний клієнт</p>
         </motion.div>
 
         {/* Decorative elements */}
